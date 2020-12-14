@@ -78,7 +78,7 @@ class UniversityReport:
         input_file.close()
 
         output_file = open(out_file, "w")
-        output_file.write("Successfully inserted %d records into the system.\n" % count)
+        output_file.write("Record added successfully %d.\n" % count)
         output_file.close()
 
     def read_prompts_file(self):
